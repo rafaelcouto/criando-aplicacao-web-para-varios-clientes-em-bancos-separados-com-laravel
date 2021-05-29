@@ -18,7 +18,7 @@ Route::group(['domain' => '{tenant}.' . config('app.domain'), 'middleware' => 't
 
     Route::get('/', function () {
         $company = Company::firstOrFail();
-        dd($company->toArray());
+        return view('tenant', ['company' => $company]);
     });
 
 });
