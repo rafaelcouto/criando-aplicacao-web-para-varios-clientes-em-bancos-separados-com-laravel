@@ -40,7 +40,7 @@ Exemplos de uso:
 
 ```
 php artisan create-tenant "Tenant 1"
-php artisan create-tenant "Tenant 2" --host=167.71.253.102 --username=rafael;
+php artisan create-tenant "Tenant 2" --host=167.71.253.102 --username=rafael
 ```
 
 ## Alteração de estrutura do banco de dados (*Migrations*)
