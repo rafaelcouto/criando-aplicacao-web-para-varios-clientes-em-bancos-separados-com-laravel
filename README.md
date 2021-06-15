@@ -15,7 +15,7 @@ Criar o banco de dados principal rodando o *script* em [main.sql](main.sql);
 
 Instalar as dependências utilizando o Composer;
 ```
-composer update
+composer install
 ```
 
 Renomear o arquivo [.env.example](.env.example) para ```.env``` e substituir pelas informações da sua aplicação;
